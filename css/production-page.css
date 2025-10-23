@@ -1,3 +1,7 @@
+ body {
+      background-color: #080D37;
+    }
+    
 .flexContainer {
     display: flex;
     justify-content: center;

@@ -1,3 +1,7 @@
+ body {
+      background-color: #080D37;
+    }
+
 .flexContainer {
     display: flex;
     justify-content: center;
@@ -10,7 +14,7 @@ header{
     width: 100%;
     height: 162.531px;
     align-content: normal;
-    align-items: center
+    align-items: center 
 }
 
 .leftLinks {
