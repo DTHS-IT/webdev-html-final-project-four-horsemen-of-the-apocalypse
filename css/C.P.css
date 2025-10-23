@@ -1,6 +1,11 @@
 body {
     background-color: #080D37;
 }
+
+.color{
+    color: whitesmoke;
+} 
+
 .flexContainer {
     display: flex;
     justify-content: center;
