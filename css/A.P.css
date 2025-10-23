@@ -4,7 +4,9 @@
 .color{
     color: whitesmoke;
 }
-
+.text{
+    font-size: x-large;
+}
 .flexContainer {
     display: flex;
     justify-content: center;
