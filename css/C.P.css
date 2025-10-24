@@ -1,8 +1,18 @@
+body {
+    background-color: #080D37;
+}
+
+.color{
+    color: whitesmoke;
+} 
+
 .flexContainer {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    
+   
 }
 
 header{
@@ -10,7 +20,7 @@ header{
     width: 100%;
     height: 162.531px;
     align-content: normal;
-    align-items: center
+    align-items: center;
 }
 
 .leftLinks {
@@ -28,8 +38,14 @@ header{
     margin: 0px 15.960px 0px 15.960px;
     text-decoration: none;
 }
+.padding {
+    padding: 
+    55px 55px 55px 69.5px;
+}
+
 .content {
     text-align: center;
+    color: white;
 }
 ul {
      display: table; /* or inline-block */
