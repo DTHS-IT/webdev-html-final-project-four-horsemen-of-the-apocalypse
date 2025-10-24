@@ -4,32 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How to Contact Us</title>
-    <link rel="stylesheet" href="/css/C.P.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+     <!--JavaScript for header-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    <script>
+    $(function(){
+    $("#uni-header").load("/header.html");
+    });
+    </script>
 </head>
 <body>
- <header>
-        <div class="flexContainer" style="padding-left: 60px;">
-            <div class="leftlinks padding"> <!--Left Links-->
-                <nav>
-                    <a href="/index.html" class="nav-links">Home Page</a>
-                    <a href="/Pages/AboutPage.html" class="nav-links">About Us</a>
-                    <a href="/Pages/ContactPage.html" class="nav-links">Contact Info</a>
-                    
-                    
-                </nav>
-            </div>
-            <div> <!--Logo+Name-->
-                <img src="/images/DramaClubLogo.jpeg"  width="200px" height="175px">
-            </div>
-            <div class="padding"> <!--Right links--> 
-                <a href="/Pages/HistoryPage.html" class="nav-links">History</a>
-                <a href="/Pages/ProductionsPage.html" class="nav-links">Productions</a>
-                <a href="/Pages/MeetTheCastAndCrew.html" class="nav-links">Meet The Cast</a>
-                
-            </div>
-        </div>
-    </header>
-
+    <div id="uni-header"></div>
  <div class="content">
     <h1>How to Contact Us</h1>
     <h2>Director's Info:</h2>

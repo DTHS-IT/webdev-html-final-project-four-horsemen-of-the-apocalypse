@@ -4,32 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Past Productions</title>
-    <link rel="stylesheet" href="/css/production-page.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+     <!--JavaScript for header-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    <script>
+    $(function(){
+    $("#uni-header").load("/header.html");
+    });
+    </script>
 </head>
 <body>
-    <header class="flexContainer">
-     <div class="leftlinks"> <!--Left Links-->
-        <nav>
-        <a href="/index.html" class="nav-links color">Home</a>
-        <a href="/Pages/AboutPage.html" class="nav-links color">About Us</a>
-        <a href="/Pages/ContactPage.html" class="nav-links color">Contact Info</a>
-        </nav>
-     </div>
-     
-     <div> <!--Logo-->
-        <img src="/images/DramaClubLogo.jpeg" width="200px" height="200px">
-
-     </div>
-     
-    <div>
-        <nav> 
-        <a href="/Pages/HistoryPage.html" class="nav-links color">History</a>
-        <a href="/Pages/MeetTheCastAndCrew.html" class="nav-links color">Meet The Cast And Crew</a>
-        <a href="/Pages/ProductionsPage.html" class="nav-links color">Past Productions</a>
-        </nav>
-    </div>
-
-    </header>
-
+    <div id="uni-header"></div>
+    <h1>Productions</h1>
 </body>
 </html>
