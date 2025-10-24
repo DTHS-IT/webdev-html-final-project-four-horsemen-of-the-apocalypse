@@ -55,3 +55,18 @@ div {
     width: 15.58% absolute;
     height: 15.58%;
 }
+
+    .line-container {
+        display: flex; /* or inline-flex */
+        align-items: center; /* Vertically centers items */
+        gap: 10px; /* Adds space between elements */
+    }
+
+    .vertical-separator {
+        display: inline-block;
+        width: 1px; /* Adjust thickness as needed */
+        height: 1em; /* Adjust height based on font size, or a fixed pixel value */
+        background-color: whitesmoke; /* Or any desired color */
+        /* Alternative for line: border-left: 1px solid black; */
+    }
+
