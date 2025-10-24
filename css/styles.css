@@ -1,17 +1,29 @@
+body {
+    margin: 0%;
+}
 .flexContainer {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    width: 100%;
+    margin: 0%;
+}
+
+div {
+    margin: 0%;
+    padding: 0%;
 }
 
 header{
     text-align: center;
     width: 100%;
     height: 162.531px;
-    align-content: normal;
+    align-content: center;
     align-items: center;
     background-color: #080d37;
+    margin: 0%;
+    padding: 0%;
 }
 
 .leftLinks {
