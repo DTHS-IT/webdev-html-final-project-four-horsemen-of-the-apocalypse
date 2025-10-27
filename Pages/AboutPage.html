@@ -5,48 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
      <link rel="stylesheet" href="/css/A.P.css">
+
+      <!--JavaScript for header-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    <script>
+    $(function(){
+    $("#uni-header").load("/header.html");
+    });
+    </script>
+
+    <style>
+            .centered-text {
+                text-align: center;
+            }
+        </style>
 </head>
 <body>
-    <header class="flexContainer">
-     <div class="leftlinks"> <!--Left Links-->
-        <nav>
-        <a href="/index.html" class="nav-links color">Home</a>
-        <a href="/Pages/AboutPage.html" class="nav-links color">About us</a>
-        <a href="/Pages/ContactPage.html" class="nav-links color">Contact Info</a>
-        </nav>
-     </div>
-     
-     <div> <!--Logo-->
-        <img src="/images/DramaClubLogo.jpeg" width="200px" height="200px">
+    <div id="uni-header"></div>
 
-     </div>
-     
-    <div>
-        <nav>
-        <a href="/Pages/HistoryPage.html" class="nav-links color">History</a>
-        <a href="/Pages/MeetTheCastAndCrew.html" class="nav-links color">Meet The Cast And Crew</a>
-        <a href="/Pages/ProductionsPage.html" class="nav-links color">Past Productions</a>
-        </nav>
-    </div>
-
-    </header>
-    <h2 class="color">What do we do in Drama Club?</h2>
-    <h2 class="color">In Drama Club we preform one play in the winter and one musical in the spring. Throughout the process of putting on the show we practice two times a week and prefect our craft. Drama Club is a great way to find new friends and to try something new. No experience is required to become a member of the Delcastle Players.</h2><br>
-    <h2 class="color">As a member of the Delcastle Players you can:</h2>
-    <ul class="color">
-        <li>
-            Become an actor (When you are an acotr you have the opportunity on stage in our productions.)
+    <h2 class="color centered-text">What do we do in Drama Club?</h2>
+    <h2 class="color centered-text">In Drama Club we preform one play in the winter and one musical in the spring. Throughout the process of putting on the show we practice two times a week and prefect our craft. Drama Club is a great way to find new friends and to try something new. No experience is required to become a member of the Delcastle Players.</h2><br>
+    <h2 class="color centered-text">As a member of the Delcastle Players you can:</h2>
+    <ul class="color centered-text">
+        <li class="text">
+            Be an actor (When you are an acotr you have the opportunity on stage in our productions. Being an actor offers you an opportunity to showcase your abilitys on stage while also learning how to become a better actor and you can learn social skills by interacting with others)
         </li>
 
-        <li>
+        <li class="text">
             Be a part of our stage crew (When you are a part of our stage crew you can help out with building the set peices, helping out with set changes, and helping out with props.)
         </li>
 
-        <li>
+        <li class="text">
             Be a part of our lighting crew (When you are a part of our lighting crew you will learn how to opperate the lighting board and or spotlights.)
         </li>
     </ul><br>
-    
 
+<footer class="color centered-text">Delcastle Technical High School</footer>
+<footer class="color centered-text">1417 Newport Rd, Wilmington, DE 19804</footer>
+    <div class="line-container">
+        <span class="color centered-text">Phone: (302)995-8100</span>
+        <span class="vertical-separator" class="color"></span>
+        <span class="color centered-text">Fax: (302)995-8197</span>
+    </div>
 </body>
 </html>
