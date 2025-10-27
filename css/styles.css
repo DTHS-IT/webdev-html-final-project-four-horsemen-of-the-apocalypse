@@ -53,5 +53,14 @@ header{
 }
 a {
     color: whitesmoke;
-    
+    font-weight: bold;
+}
+
+span {
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 400%;
 }
