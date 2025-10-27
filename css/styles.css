@@ -1,5 +1,5 @@
 body {
-      background-color: purple;
+      background-color: #080d37;
       margin: 0%; 
     }
 
@@ -50,4 +50,8 @@ header{
 #headerimg {
     width: 15.58% absolute;
     height: 15.58%;
+}
+a {
+    color: whitesmoke;
+    
 }
