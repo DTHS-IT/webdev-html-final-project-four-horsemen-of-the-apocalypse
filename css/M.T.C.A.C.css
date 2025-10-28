@@ -3,9 +3,7 @@
       margin: 0%;
     }
     
-.color{
-    color: whitesmoke;
-} 
+
 
 .flexContainer {
     display: flex;
@@ -50,6 +48,7 @@ header{
 }
 .content {
     text-align: center;
+    color: white
 }
 
 
@@ -67,3 +66,7 @@ div {
     width: 15.58% absolute;
     height: 15.58%;
 }
+
+.color{
+    color: whitesmoke;
+} 
