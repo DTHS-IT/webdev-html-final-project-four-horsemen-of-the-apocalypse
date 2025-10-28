@@ -69,4 +69,13 @@ div {
         background-color: whitesmoke; /* Or any desired color */
         /* Alternative for line: border-left: 1px solid black; */
     }
+    #uni-header{
+        font-weight: bold;
+    }
+    .color-centered-text{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+    }
 
