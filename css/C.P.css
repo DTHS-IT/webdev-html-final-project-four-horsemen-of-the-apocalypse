@@ -63,3 +63,22 @@ div {
     height: 15.58%;
 }
 
+p {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.seperate{
+    font-weight: bold;
+    font-size: 20px;   
+    text-decoration: underline;
+}
+ a {
+    color: white;
+ }
+ h2 {
+    text-decoration: underline;
+ }
+ li {
+    font-size: 18px;
+ }
