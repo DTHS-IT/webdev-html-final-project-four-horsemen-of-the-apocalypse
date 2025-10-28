@@ -61,11 +61,28 @@ div {
     text-align: center;
     color: white;
 }
+#uni-header{
+    font-weight: bold;
+}
+.title{
+    color: white;
+    padding: 15px;
+    
+}
+
+.historyTable {
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.historyTable2 {
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
 table, th, td {
   border:3px solid whitesmoke;
     border-collapse: collapse;
 }
-.hisotryTable {
-  margin-left: auto;
-  margin-right: auto;
-}
+
+
