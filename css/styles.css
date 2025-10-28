@@ -38,7 +38,6 @@ header{
     height: 12px;
     padding: 7.416px 0px 7.416px 0px;
     margin: 0px 15.960px 0px 15.960px;
-    text-decoration: none;
 }
 
 .padding {
@@ -96,3 +95,15 @@ section.margin {
     margin: 10% 0px 10% 0px;
 }
 
+button {
+    background-color: gold;
+    border-color: goldenrod;
+    width: 20%;
+    height: 10%;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
