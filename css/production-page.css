@@ -54,3 +54,15 @@ div {
     width: 15.58% absolute;
     height: 15.58%;
 }
+
+    .center-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; 
+}
+td {
+    text-align: center;
+  }
+  th {
+    text-align: center; /* Th elements are often centered by default, but you can explicitly set it */
+  }
