@@ -79,3 +79,6 @@ p {
  h2 {
     text-decoration: underline;
  }
+ li {
+    font-size: 18px;
+ }

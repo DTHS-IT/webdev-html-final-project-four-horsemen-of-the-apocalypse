@@ -61,3 +61,11 @@ div {
     text-align: center;
     color: white;
 }
+table, th, td {
+  border:3px solid whitesmoke;
+    border-collapse: collapse;
+}
+.hisotryTable {
+  margin-left: auto;
+  margin-right: auto;
+}
