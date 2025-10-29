@@ -109,8 +109,9 @@ a {
     color: white;
 }
 
-footer {
+#footerdiv {
     background-color:rgb(21, 11, 82);
     margin: 0%;
     padding: 0%;
+    height: 367.500px;
 }
