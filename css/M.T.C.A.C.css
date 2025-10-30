@@ -87,3 +87,8 @@ table, th, td {
 #uni-header{
     font-weight: bold;
 }
+.subtext {
+    font-size: 20px;
+    font-weight: bolder;
+    color: cornflowerblue;
+}
