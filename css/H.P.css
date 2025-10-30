@@ -59,15 +59,20 @@ div {
 }
 .history-headers{
     text-align: center;
-    color: white;
+    color: cornflowerblue;
+    font-size: 27px;
 }
 #uni-header{
     font-weight: bold;
 }
 .title{
-    color: white;
+    color: whitesmoke;
     padding: 15px;
     
+}
+.main-header {
+    color: cornflowerblue;
+    text-align: center;
 }
 
 .historyTable {
@@ -84,5 +89,10 @@ table, th, td {
   border:3px solid whitesmoke;
     border-collapse: collapse;
 }
-
+p {
+    font-weight: bold;
+    font-size: 23px;
+    color: whitesmoke;
+   text-align: center;
+}
 

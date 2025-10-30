@@ -71,16 +71,18 @@ p {
 .seperate{
     font-weight: bold;
     font-size: 20px;   
-    text-decoration: underline;
+    font-style: italic;
 }
  a {
     color: white;
  }
  h2 {
-    text-decoration: underline;
+    font-style: italic;
+    color: cornflowerblue
  }
  li {
     font-size: 18px;
+    font-weight: bolder;
  }
 #uni-header{
     font-weight: bold;
