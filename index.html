@@ -40,34 +40,9 @@
                 </div>
             </div>
         </section>
-
-            <div class="container">
-<form id="form">
-<h1>Submit your mailing information</h1>
-<label for="name">Name:</label>
-<input type="text" name="name" id="name" required />
-
-<label for="address">Address:</label>
-<input type="text" name="address" id="address" required />
-
-<label for="city">City:</label>
-<input type="text" name="city" id="city" required />
-
-<label for="state">state:</label>
-<input type="text" name="state" id="state" required />
-
-<label for="zipcode">Zip Code:</label>
-<input type="text" name="zipcode" id="zipcode" required />
-
-<button type="submit">Submit</button>
-
-<div id="success" class="success-message"></div>
-
-</form>
-    </div>
         <footer>
             <div id="footerdiv" class="flexContainer">
-                <div style="text-align: center;">
+                <div id="quickLinkDiv">
                     <h2>Quick Links</h2> <br>
                     <h3> 
                         <a href="index.html">Home</a> <br>
@@ -78,9 +53,22 @@
                         <a href="/Pages/HistoryPage.html">History</a> <br>
                     </h3>
                 </div>
-                <div>
+                <div> <!--Socials-->
+                    
                     <h3>Delcastle Technical High School</h3>
                     <h3>1417 Newport Rd, Wilmington, DE 19804</h3>
+                </div>
+                <div> <!--form div-->
+                    <h2>Feedback</h2>
+                    <h3>What did you think of our website?</h3>
+
+                    <form> <!--Start of form-->
+                        <label for="feedback"><strong>Feedback:</strong></label>
+                        <input type="text" id="feedback" name="feedback" placeholder="Type Feedback here!" />
+
+                        <!-- Submit button -->
+                        <button type="submit">Submit</button>
+                    </form> 
                 </div>
             </div>
         </footer>

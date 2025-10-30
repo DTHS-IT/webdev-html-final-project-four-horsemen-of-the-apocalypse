@@ -64,7 +64,7 @@ h1 {
     font-size: 400%;
 }
 
-h1, h3, p {
+h1, h3, p, label {
     color: whitesmoke;
 }
 
@@ -114,4 +114,23 @@ a {
     margin: 0%;
     padding: 0%;
     height: 367.500px;
+    justify-content: space-around;
+}
+
+h2 {
+    Color: cornflowerblue;
+}  
+
+
+#footerdiv div {
+    text-align: center;
+    padding-top: 2%;
+}
+
+input {
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
 }
