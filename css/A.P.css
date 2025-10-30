@@ -79,6 +79,12 @@ div {
         font-weight: bold;
     }
 
+
+    .h2s {
+        Color: cornflowerblue;
+    }
+
+
 .image-trio {
     margin-left: auto;
     margin-right: auto;
@@ -89,7 +95,7 @@ table, th, td {
     border-collapse: collapse;
 }
 .title {
-    color: whitesmoke;
+    color: cornflowerblue;
     padding: 15px;
    font-size: 20px
 }
