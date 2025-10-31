@@ -102,6 +102,7 @@ button {
     width: 20%;
     height: 10%;
     font-size: large;
+    color: white;
 }
 
 a {
@@ -133,4 +134,22 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
+}
+
+#formButton {
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 75%;
+}
+
+.success-message {
+  width: 63%;
+  margin-top: 5%;
+  margin-left: 25%;
+  padding: 16px;
+  background-color: rgba(100, 148, 237, 0.634);
+  border: 1px solid royalblue;
+  color: #155724;
+  border-radius: 4px;
+  font-size: 16px;
 }
