@@ -74,9 +74,14 @@ table, th, td {
   border:3px solid whitesmoke;
     border-collapse: collapse;
 }
-.castImages {
+.fullCast {
   margin-left: auto;
   margin-right: auto;
+  
+}
+th {
+    font-size: 25px;
+    padding: 12px;
 }
 .Actors {
     padding: 15px;
@@ -88,7 +93,10 @@ table, th, td {
     font-weight: bold;
 }
 .subtext {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
-    color: cornflowerblue;
+    color: cornflowerblue
+}
+.understudy {
+    color: cornflowerblue
 }
